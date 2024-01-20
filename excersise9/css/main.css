@@ -1,0 +1,80 @@
+
+body{
+    font-family: sans-serif;
+    
+
+}
+h1{
+    background-color: black;
+    border:solid 5px black;
+    color:azure;
+    text-align: center;
+}
+h1:hover{
+    background-color: aliceblue;
+    color:black
+}
+.main-img{
+    margin:  20px 100px 75px;
+   
+}
+
+
+.main-paragraph{
+    
+    margin-left: 2%;
+ }
+ li::first-letter{
+    font-size:x-large
+ }
+
+br{
+    margin-left:0%;
+    
+}
+.btn{
+    top: 15%;
+    left: 90%;
+    position: absolute;
+    background-color: #7f7f7f;
+    color: white;
+    font-size: 15px;
+    padding: 12px 24px;
+    border:solid 5px black;
+    cursor: pointer;
+    border-radius: 20px;
+}
+aside{
+    
+    background-color: black;
+    color: azure;
+}
+h2::after{
+    content: "dislike";
+    padding: 10px;
+    background-color: #7f7f7f;
+    font-size: 15px;
+    border-radius:20% ;
+    position:absolute;
+    cursor: pointer;
+right: 20px;
+color: white;
+border:solid 5px white;
+
+}
+h2{
+    text-align: center;
+    margin-top: 0%;
+}
+.button{
+    bottom: 0%;
+    left: 90%;
+    position: relative;
+    background-color: #7f7f7f;
+    color: white;
+    font-size: 15px;
+    padding: 12px 24px;
+    border:solid 5px whitesmoke;
+    cursor: pointer;
+    border-radius: 20px;
+}
